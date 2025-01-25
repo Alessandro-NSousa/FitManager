@@ -12,7 +12,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MaterialModule } from './material-modules';
 import { CardComponent } from './components/card/card.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { PopupComponent } from './components/popup/popup.component';
 import { TableComponent } from './components/table/table.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { TableComponent } from './components/table/table.component';
     SidebarComponent,
     CardComponent,
     SliderComponent,
-    TableComponent,
+    PopupComponent,
+    PopupComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +36,8 @@ import { TableComponent } from './components/table/table.component';
     MatToolbarModule,
     MaterialModule,
     FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

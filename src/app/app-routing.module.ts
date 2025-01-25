@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { SliderComponent } from './components/slider/slider.component';
-import { TableComponent } from './components/table/table.component';
+// import { TableComponent } from './components/table/table.component';
 
 const routes: Routes = [
   {
@@ -16,9 +16,9 @@ const routes: Routes = [
   {
     path:'slider',component:SliderComponent,
   },
-  {
-    path:'table',component:TableComponent,
-  }
+  // {
+  //   path:'table',component:TableComponent,
+  // }
 ];
 
 @NgModule({
