@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { TableComponent } from './components/table/table.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 // import { TableComponent } from './components/table/table.component';
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   },
    {
      path:'table',component:TableComponent,
-   }
+   },
+   {path:'autocomplete',component:AutocompleteComponent}
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { PopupComponent } from './components/popup/popup.component';
 import { TableComponent } from './components/table/table.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     SliderComponent,
     PopupComponent,
     PopupComponent,
-    TableComponent
+    TableComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
